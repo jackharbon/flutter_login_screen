@@ -243,7 +243,7 @@ class _MyHomePageState extends State<MyHomePage> {
                 child: ElevatedButton(
                   onPressed: _onFormSubmit,
                   style: ElevatedButton.styleFrom(
-                    primary: primaryColor,
+                    backgroundColor: primaryColor,
                     textStyle: const TextStyle(fontSize: 22, fontWeight: FontWeight.bold)
                   ),
                   child: const Text("Sign In"),
